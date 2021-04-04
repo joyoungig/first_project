@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#979797}
+        </style>
+    </defs>
+    <g id="prefix__그룹_8276" data-name="그룹 8276" transform="translate(-1477 -3263)">
+        <g id="prefix__그룹_8245" data-name="그룹 8245" transform="translate(1477.18 3262.66)">
+            <path id="prefix__사각형_5141" d="M0 0H32V32H0z" data-name="사각형 5141" transform="translate(-.18 .34)" style="fill:transparent"/>
+            <g id="prefix__instagram" transform="translate(5.87 6.73)">
+                <g id="prefix__그룹_8230" data-name="그룹 8230">
+                    <g id="prefix__그룹_8229" data-name="그룹 8229">
+                        <path id="prefix__패스_5562" d="M13.829 0H6.286A6.287 6.287 0 000 6.286v7.543a6.287 6.287 0 006.286 6.286h7.543a6.287 6.287 0 006.286-6.286V6.286A6.287 6.287 0 0013.829 0zm4.4 13.829a4.4 4.4 0 01-4.4 4.4H6.286a4.4 4.4 0 01-4.4-4.4V6.286a4.4 4.4 0 014.4-4.4h7.543a4.4 4.4 0 014.4 4.4z" class="prefix__cls-2" data-name="패스 5562"/>
+                    </g>
+                </g>
+                <g id="prefix__그룹_8232" data-name="그룹 8232" transform="translate(5.029 5.029)">
+                    <g id="prefix__그룹_8231" data-name="그룹 8231">
+                        <path id="prefix__패스_5563" d="M133.029 128a5.029 5.029 0 105.029 5.029 5.029 5.029 0 00-5.029-5.029zm0 8.172a3.143 3.143 0 113.143-3.143 3.147 3.147 0 01-3.143 3.143z" class="prefix__cls-2" data-name="패스 5563" transform="translate(-128 -128)"/>
+                    </g>
+                </g>
+                <g id="prefix__그룹_8234" data-name="그룹 8234" transform="translate(14.793 3.981)">
+                    <g id="prefix__그룹_8233" data-name="그룹 8233">
+                        <circle id="prefix__타원_340" cx=".67" cy=".67" r=".67" class="prefix__cls-2" data-name="타원 340"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

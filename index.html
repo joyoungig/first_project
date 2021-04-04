@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minumum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+<!-- Header 부분-->
+<header>
+  <div class="header">
+    <div class="header-top-container">
+      <div style="float:left;">
+        <a href="/" style="font-weight:700;">홈</a>
+        <span style="padding:0 5px">|</span>
+        <a href="/"style="font-weight:400;">호스트센터</a>
+      </div>
+      <div style="float:right;">
+        <a href="/">로그인</a>
+        <a href="/" style="padding:0 10px;">회원가입</a>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <nav class="nav-bar">
+      <div style="float:left;position:relative; height:100%;">
+        <img src="icon/event-us.png" style="width:90px;"/>
+      </div>
+      <div style="padding-left:120px; float:left;">
+        <input type="text" class="search-input-top" placeholder="G-스타트업 벌룬 웨비나">
+        <a href=""><img src="icon/search.png" class="search-input-icon"></a>
+      </div>
+      <img src="new_icon.svg" class="nav_bar_newicon">
+      <ul class="nav_bar_ul">
+        <li class="nav_bar_li">웨비나소개</li>
+        <li class="nav_bar_li">행사검색</li>
+        <li class="nav_bar_li">신청내역확인</li>
+        <li class="nav_bar_li" style="padding-right:10px !important;">행사개설</li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Top banner swiper 부분-->
+  <div class="swiper-top-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div style="background-image: url('swiper/swiper_3.png'); width:100%;">
+          <div class="swiper-top-slide-title">G-스타트업<br>Next Level Begins</div>
+          <div class="swiper-top-slide-content">강원도 창업지원사업인 G-스타트업 청년창업 지원사업 설명회,<br>창업기업 투자유치, 지원사업 사업계획서 작성법 특강</div>
+          <div class="swiper-top-slide-period">
+            <div style="float:left;">2021.03.26. (금) 14:00 ~ 17:00</div>
+            <div style="float:right;">온라인 행사</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script>
+      var swiper_main_banner = new Swiper('.swiper-top-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        pagination : {
+      		el : '.swiper-pagination',
+      	},
+
+        slidesPerView:1,
+        loop:true,
+        speed:1000,
+      })
+    </script>
+  <!-- Main Category 부분-->
+  <div class="div_center" style="padding-top:50px;">
+    <div>
+      <div class="menu_first_name">가장 인기있는 카테고리</div>
+      <div class="menu_second_left_name">관심지수가 가장 높은 인기 카테고리는 여기서 찾아보세요!</div>
+    </div>
+    <div class="category">
+      <div class="category_table">
+        <div class="category_cell" style="margin-left:10px;">
+            <img src="img/category-1.svg" class="category_img">
+            <div class="category_text">온라인</div>
+        </div>
+        <div class="category_cell">
+          <div>
+            <img src="img/category-2.svg" class="category_img">
+            <div class="category_text">사업/창업</div>
+          </div>
+        </div>
+        <div class="category_cell">
+          <div>
+            <img src="img/category-3.svg" class="category_img">
+            <div class="category_text">마케팅/홍보</div>
+          </div>
+        </div>
+        <div class="category_cell">
+          <div>
+            <img src="img/category-4.svg" class="category_img">
+            <div class="category_text">문화/예술</div>
+          </div>
+        </div>
+        <div class="category_cell">
+          <div>
+            <img src="img/category-5.svg" class="category_img">
+            <div class="category_text">커뮤니티</div>
+          </div>
+        </div>
+        <div class="category_cell">
+          <div>
+            <img src="img/category-6.svg" class="category_img">
+            <div class="category_text">IT/개발</div>
+          </div>
+        </div>
+        <div class="category_cell">
+          <div>
+            <img src="img/category-7.svg" class="category_img">
+            <div class="category_text">인문/사회</div>
+          </div>
+        </div>
+        <div class="category_cell" style="margin:0;">
+          <div>
+            <img src="img/category-8.svg" class="category_img">
+            <div class="category_text">과학/기술</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Main swiper 1번째 부분-->
+  <div class="div_center" style="padding-top:60px;">
+    <div class="menu_first_name">놓쳐서 안 될 온라인 행사</div>
+    <div>
+      <div class="menu_second_left_name">온라인에서 일하고, 배우고, 즐기자<img src="icon/computer.png" style="position:relative; width:25px; top:5px;"></div>
+      <div class="menu_second_right_name">다른 행사 더보기</div>
+    </div>
+  </div>
+  <div class="swiper-main-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative; margin-left:5px;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_1.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월24일(수) 온라인</div>
+            <div class="p-box-title">[월간 일잘러 3월] 커리어 확장에는 경계가 없다</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">5,000원~</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_2.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">04월01일(목) 온라인</div>
+            <div class="p-box-title">[독서모임] 긍정 아침을 깨우는 시간,메이크 모닝</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">43,000원~</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_3.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">IT PLUS "메타버스(Metaverse)"편[한화생명 드림플러스]</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_4.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월24일(수) 온라인</div>
+            <div class="p-box-title">[MEET UP] WePause 3월 : 함께해요! 제로웨이스트</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next" style="float:right; position:relative; right:-80px; top:-200px;"></div>
+      <script>
+        var swiper_main_top = new Swiper('.swiper-main-container', {
+          navigation: {
+            nextEl: '.swiper-button-next'
+          },
+          slidesPerGroup:1,
+          slidesPerView:4,
+          spaceBetween:10,
+        });
+      </script>
+  </div>
+  <!-- RE-PLAY EWL 사진 이미지-->
+  <div class="div_center" style="padding-top:10px;"><a href="https://event-us.kr/l/ewl"><img src="ewl01.svg" style="width:100%"/></a></div>
+  <!-- Main Swiper 2번째 부분-->
+  <div class="div_center" style="padding-top:40px;">
+    <div class="menu_first_name">이번 주, 모두가 주목한 행사<img src="icon/hand.png" style="position:relative; width:30px; top:7px; right:-2px;"></div>
+    <div>
+      <div class="menu_second_left_name">지금 가장 인기 있는 행사만 모았어요</div>
+      <div class="menu_second_right_name">다른 행사 더보기</div>
+    </div>
+  </div>
+  <div class="div_center" style="padding-top:50px;">
+    <div class="swiper-main-container">
+      <div class="swiper-wrapper" style="padding:0; margin:0;">
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_5.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월31일(수) 온라인</div>
+            <div class="p-box-title"><전국투표전도 2021> 저자와의 만남 "시장 투표를 하긴 해야겠는데..."</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_6.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">04월08일(목) 온라인</div>
+            <div class="p-box-title">[인생명강]'나'를 찾아 떠나는 시간여행~ 경희대 사학과 강인욱 교수</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">40,000원~</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_7.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월25일(목) 온라인</div>
+            <div class="p-box-title">스타트업 Talk! 3월 정기 세미나 [Paper~ program_온라인 세미나]</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_8.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">04월01일(목) 온라인</div>
+            <div class="p-box-title">먹기만 해도 건강해지는 통곡물 100% 식사</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Swiper 동작 X
+      <script>
+        var swiper_main_top = new Swiper('.swiper-main-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          slidesPerGroup:1,
+          slidesPerView:4,
+          loop:true,
+          initialSlide:0,
+          spaceBetween:10,
+        });
+      </script>
+    -->
+  </div>
+  </div>
+  <!-- Main Swiper 3번째 부분-->
+  <div class="div_center" style="padding-top:10px;">
+    <div class="menu_first_name">따끈따끈한 신규 행사<img src="icon/fire.png" style="position:relative; width:25px; top:10px; right:-3px;"></div>
+    <div class="menu_second_left_name">주목하세요! 이번주 개설된 신규 행사</div>
+  </div>
+  <div class="div_center" style="padding-top:50px;">
+    <div class="swiper-main-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper" style="padding:0; margin:0;">
+      <!-- Slides -->
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_1.jpg" style="display:block; width:260px; border-radius:55x; border-radius:5px;">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">1번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_2.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">2번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_3.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">3번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_4.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">4번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Swiper 부분 동작 X
+      <script>
+        var swiper_main_top = new Swiper('.swiper-main-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          slidesPerGroup:1,
+          slidesPerView:4,
+          loop:true,
+          initialSlide:0,
+          spaceBetween:10,
+        });
+      </script>
+    -->
+  </div>
+  <!-- Main Swiper 4번째 부분-->
+  <div class="div_center" style="padding-top:10px;">
+    <div class="menu_first_name">AI 추천</div>
+    <div class="menu_second_left_name">회원가입 후에 더욱 정교한 추천을 만나보세요!</div>
+  </div>
+  <div class="div_center" style="padding-top:50px;">
+    <div class="swiper-main-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper" style="padding:0; margin:0;">
+      <!-- Slides -->
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_1.jpg" style="display:block; width:260px; border-radius:55x; border-radius:5px;">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">1번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_2.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">2번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_3.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">3번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="width:150px;">
+          <div style="position:relative;">
+            <img src="icon/heart.png" class="p-box-heart-image">
+            <img src="lecture/lecture_4.jpg" class="p-box-lecture-image">
+            <div class="p-box-period">03월29일(월) 온라인</div>
+            <div class="p-box-title">4번째</div>
+            <div class="p-box-bottom">
+              <div style="float:left;">무료</div>
+              <div style="float:right;"><img src="icon/eyes.svg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 동작 X
+      <script>
+        var swiper_main_top = new Swiper('.swiper-main-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          slidesPerGroup:1,
+          slidesPerView:4,
+          loop:true,
+          initialSlide:0,
+          spaceBetween:10,
+        });
+      </script>
+    -->
+  </div>
+<!-- 맨 아래 swiper -->
+  <div class="div_center">
+    <div class="menu_first_name">인기채널</div>
+    <div>
+      <div class="menu_second_left_name">인기있는 채널과 구독중인 채널을 바로 만나보세요!
+</div>
+      <div class="menu_second_right_name">My 구독 채널 바로가기</div>
+    </div>
+  </div>
+  <div class="div_center" style="padding-top:50px;">
+    <div class="swiper-bottom-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_1.png" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">KOTRA</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_2.jpg" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">한국엑셀러레이터''</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_3.png" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">visdom</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_4.png" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">ARASTA</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_5.png" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">human</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_5.png" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">human</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-bottom-slide-box">
+            <img src="icon/company_5.png" class="clip-circle">
+            <div class="swiper-bottom-slide-box-top-name">human</div>
+            <div class="swiper-bottom-slide-box-main-name">n개의 행사</div>
+            <div class="swiper-bottom-slide-box-subscribe">
+            <div class="swiper-bottom-slide-box-subscribe-word">+구독</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 동작 X
+      <script>
+        var swiper_main_top = new Swiper('.swiper-bottom-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          slidesPerGroup:1,
+          slidesPerView:6,
+          initialSlide:0,
+          spaceBetween:10,
+        });
+      </script>
+    -->
+  </div>
+  <!-- Main 맨 아래 부분-->
+  <div class="div_center" style="height:300px; padding-top:120px;">
+    <div><span style="font-size:23px;">관심 분야의 행사소식을<br>가장 먼저 접하세요.</span></div>
+  <ul style="padding-top:20px; font-size:13px; letter-spacing:-0.3px; color:blue;">
+      <li>Editor'sPick</li>
+      <li style="padding-left:10px;">|</li>
+      <li style="padding-left:10px;">분야별 행사&모임</li>
+      <li style="padding-left:10px;">|</li>
+      <li style="padding-left:10px;">행사,대신가요</li>
+  </ul>
+  <div style="width:100%; height:200px; padding-top:10px; position:absolute;">
+    <input type="text" class="search-input-bottom" placeholder="메일 주소 입력">
+    <input type="button" class="button-input" value="구독하기" style="float:left; border:0; height:45px; width:120px; color:white; background:#6600ff; border-radius:3px; margin-left:20px; margin-top:20px;">
+    <img src="icon/people.png" style="position:relative; top:-180px; right:-40px;">
+  </div>
+  <div style="width:100%; padding-top:90px; float:left; font-weight:bold;">
+    <input type="checkbox"><span style="font-size:13px">
+    <span style="text-decoration:underline; color:gray; margin-top:10px;">개인정보수집</span> 및 <span style="text-decoration:underline; color:gray">이용약관</span>에 동의합니다.</span>
+  <span style="margin-left:230px; font-size:13px; letter-spacing:-0.3px; color:#e5e5e5; text-decoration:underline; margin-right:10px;">지난 뉴스레터 보기</span>
+  </div>
+</div>
+<div style="padding-top:120px; width:100%; border-bottom:1px solid #e5e5e5;">
+</div>
+  <!-- 아래 부분-->
+<div class="div_center">
+  <div style="width:1100px; max-width:100%; height:80px;">
+      <ul style="float:left; font-size:13px; margin-top:25px; font-weight:bold;">
+        <li style="color:#6600ff;">공지사항</li>
+        <li style="padding-left:20px;">|</li>
+        <li style="padding-left:20px;">2021-03 서비스 업데이트 안내</li>
+      </ul>
+  </div>
+</div>
+  <!-- footer 부분-->
+  <footer style="width:100%; height:370px; border-top:1px solid #e5e5e5;">
+      <div class="div_center">
+        <div class="li-footer-table">
+          <div class="li-footer-table-cell" style="padding:0 !important;">회사소개</div>
+          <div class="li-footer-table-cell">서비스소개</div>
+            <div class="li-footer-table-cell">호스트센터</div>
+          <div class="li-footer-table-cell">공지사항</div>
+          <div class="li-footer-table-cell">자주 묻는 질문</div>
+          <div class="li-footer-table-cell">채용</div>
+        </div>
+        <div class="li-footer-table">
+          <div style="display:table-row;">
+            <div style="display:table-cell;">고객센터</div>
+            <div style="position:absolute; display:table-cell; padding-left:60px;">평일10-17시</div>
+            <div style="position:relative; right:-140px; text-decoration:underline; color:black !important;">1:1문의하기</div>
+          </div>
+          <div style="display:table-row;">
+            <div style="display:table-cell;">제휴문의</div>
+            <div style="display:table-cell; padding-left:60px;">partnership@event-us.kr</div>
+          </div>
+        </div>
+        <img src="icon/introduce.png" style="display:block; padding-top:3px;">
+        <span style="color:#6600ff !important; font-size:15px; font-weight:bold;">이벤터스</span>
+        <div style="display:table; font-size:13px; font-weight:bold; color:gray;">
+          <div>(주)이벤터스 | 사업자등록번호 114-87-20403 | 통신판매업 신고번호 제2019-서울마포-2129호</div>
+          <div>대표 안영학, 이정수 | 개인정보책임자 이정수 | 서울특별시 마포구 백범로31길 21, 서울창업허브 본관 8층 806호</div>
+          <div><span style="color:#6600ff">이벤터스는 통신판매중개자이며 행사에 대한 당사자 및 주최자가 아닙니다. 따라서 이벤터스는 등록된 행사에 대해 책임지지 않습니다.</span></div>
+      </div>
+      <div>
+        <ul style="float:left; font-size:14px; color:gray; padding-top:20px;">
+          <li class="li-footer-bottom" style="padding:0 !important;">서비스 이용 약관</li>
+          <li class="li-footer-bottom">|</li>
+          <li class="li-footer-bottom" style="font-weight:bold;">개인정보처리방침</li>
+          <li class="li-footer-bottom">|</li>
+          <li class="li-footer-bottom">전자금융거래 이용약관</li>
+          <li class="li-footer-bottom">|</li>
+          <li class="li-footer-bottom">취소 및 환불 약관</li>
+          <li class="li-footer-bottom">|</li>
+          <li class="li-footer-bottom">이메일 주소 무단수집 거부</li>
+        </ul>
+        <ul style="float:right; color:gray;">
+          <li class="li-footer-bottom-icon"><img src="icon/icon_naver.svg"></li>
+          <li class="li-footer-bottom-icon"><img src="icon/icon_facebook.svg"></li>
+          <li class="li-footer-bottom-icon"><img src="icon/icon_kakao.svg"></li>
+          <li class="li-footer-bottom-icon"><img src="icon/icon_instagram.svg"></li>
+          <li class="li-footer-bottom-icon"><img src="icon/icon_youtube.svg"></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</main>
+</html>
